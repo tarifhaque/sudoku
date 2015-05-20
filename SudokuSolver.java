@@ -1,3 +1,11 @@
+/**********************************************************
+ * A class that drives the primary logic for solving
+ * sudoku boards.
+ *
+ * Tarif Haque
+ **********************************************************/
+
+
 import java.io.*;
 import java.util.*;
 
@@ -159,7 +167,7 @@ public class SudokuSolver {
     public void solveBoard() {
 
         if (solveBoardDeterministcally()) {
-            output("Board has been solved without any guessing.\n");
+            output("Board has been solved deterministically without guessing.\n");
             writeDefiniteAssignments();
             writeFinalSolvedBoard();
         }
