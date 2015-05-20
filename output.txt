@@ -1,0 +1,117 @@
+Initial Sudoku Board: 
+0 0 0 7 0 6 3 0 0 
+9 0 1 0 0 0 0 6 0 
+0 0 0 9 0 0 0 2 7 
+0 0 2 0 0 5 0 0 9 
+0 0 0 0 0 0 0 0 0 
+7 0 0 0 0 0 4 0 0 
+2 6 0 0 0 8 0 0 0 
+0 3 0 0 0 0 6 0 5 
+0 0 8 4 0 7 0 0 0 
+
+Board cannot be solved without guessing.
+Determined board
+0 2 0 7 1 6 3 9 0 
+9 7 1 0 0 0 5 6 0 
+0 0 0 9 5 0 1 2 7 
+0 0 2 0 0 5 8 0 9 
+0 0 0 0 0 0 2 0 0 
+7 0 0 0 0 0 4 0 0 
+2 6 9 5 3 8 7 4 1 
+4 3 7 0 0 0 6 8 5 
+0 0 8 4 6 7 9 3 2 
+
+Definite assignments: 
+Assigned 9 to Tile (0, 7) 
+Assigned 7 to Tile (1, 1) 
+Assigned 8 to Tile (7, 7) 
+Assigned 6 to Tile (8, 4) 
+Assigned 2 to Tile (0, 1) 
+Assigned 4 to Tile (6, 7) 
+Assigned 7 to Tile (6, 6) 
+Assigned 7 to Tile (7, 2) 
+Assigned 9 to Tile (8, 6) 
+Assigned 4 to Tile (7, 0) 
+Assigned 2 to Tile (8, 8) 
+Assigned 3 to Tile (8, 7) 
+Assigned 2 to Tile (4, 6) 
+Assigned 9 to Tile (6, 2) 
+Assigned 1 to Tile (6, 8) 
+Assigned 1 to Tile (0, 4) 
+Assigned 1 to Tile (2, 6) 
+Assigned 5 to Tile (1, 6) 
+Assigned 5 to Tile (6, 3) 
+Assigned 8 to Tile (3, 6) 
+Assigned 5 to Tile (2, 4) 
+Assigned 3 to Tile (6, 4) 
+
+Unassigned tiles: 
+Tile (4, 8) has possibilities: [ 3 6 ]
+Tile (8, 1) has possibilities: [ 1 5 ]
+Tile (0, 0) has possibilities: [ 5 8 ]
+Tile (5, 8) has possibilities: [ 3 6 ]
+Tile (3, 1) has possibilities: [ 1 4 ]
+Tile (0, 2) has possibilities: [ 4 5 ]
+Tile (3, 4) has possibilities: [ 4 7 ]
+Tile (1, 8) has possibilities: [ 4 8 ]
+Tile (7, 4) has possibilities: [ 2 9 ]
+Tile (5, 7) has possibilities: [ 1 5 ]
+Tile (7, 3) has possibilities: [ 1 2 ]
+Tile (3, 7) has possibilities: [ 1 7 ]
+Tile (2, 1) has possibilities: [ 4 8 ]
+Tile (2, 5) has possibilities: [ 3 4 ]
+Tile (8, 0) has possibilities: [ 1 5 ]
+Tile (0, 8) has possibilities: [ 4 8 ]
+Tile (1, 4) has possibilities: [ 2 4 8 ]
+Tile (1, 5) has possibilities: [ 2 3 4 ]
+Tile (2, 0) has possibilities: [ 3 6 8 ]
+Tile (4, 7) has possibilities: [ 1 5 7 ]
+Tile (3, 0) has possibilities: [ 1 3 6 ]
+Tile (7, 5) has possibilities: [ 1 2 9 ]
+Tile (5, 4) has possibilities: [ 2 8 9 ]
+Tile (5, 2) has possibilities: [ 3 5 6 ]
+Tile (2, 2) has possibilities: [ 3 4 6 ]
+Tile (1, 3) has possibilities: [ 2 3 8 ]
+Tile (3, 3) has possibilities: [ 1 3 6 ]
+Tile (5, 5) has possibilities: [ 1 2 3 9 ]
+Tile (4, 2) has possibilities: [ 3 4 5 6 ]
+Tile (5, 1) has possibilities: [ 1 5 8 9 ]
+Tile (4, 5) has possibilities: [ 1 3 4 9 ]
+Tile (4, 3) has possibilities: [ 1 3 6 8 ]
+Tile (4, 4) has possibilities: [ 4 7 8 9 ]
+Tile (4, 0) has possibilities: [ 1 3 5 6 8 ]
+Tile (4, 1) has possibilities: [ 1 4 5 8 9 ]
+Tile (5, 3) has possibilities: [ 1 2 3 6 8 ]
+
+GUESS 3 for Tile (4, 8)
+Board could not be solved after guess. 
+..but a board conflict does not exist. So guess again. 
+GUESS 4 for Tile (0, 2)
+Board could not be solved after guess. 
+..but a board conflict does not exist. So guess again. 
+GUESS 9 for Tile (7, 4)
+Board could not be solved after guess. 
+..but a board conflict does not exist. So guess again. 
+GUESS 9 for Tile (4, 5)
+Board could not be solved after guess. 
+..but a board conflict does not exist. So guess again. 
+GUESS 1 for Tile (3, 7)
+Board could not be solved after guess. 
+..but a board conflict does not exist. So guess again. 
+GUESS 1 for Tile (5, 5)
+Board could not be solved after guess. 
+..but a board conflict does not exist. So guess again. 
+GUESS 2 for Tile (5, 4)
+Bored has been solved non-deterministically.
+Final solved board: 
+5 2 4 7 1 6 3 9 8 
+9 7 1 2 8 3 5 6 4 
+3 8 6 9 5 4 1 2 7 
+6 4 2 3 7 5 8 1 9 
+8 1 5 6 4 9 2 7 3 
+7 9 3 8 2 1 4 5 6 
+2 6 9 5 3 8 7 4 1 
+4 3 7 1 9 2 6 8 5 
+1 5 8 4 6 7 9 3 2 
+
+Runtime: 36 milliseconds 

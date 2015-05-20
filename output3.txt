@@ -1,0 +1,154 @@
+Initial Sudoku Board: 
+2 0 0 0 0 3 7 0 9 
+9 5 0 7 0 0 0 0 0 
+0 0 0 9 0 0 0 6 0 
+0 2 9 0 8 0 6 5 3 
+0 3 8 0 0 0 2 0 0 
+0 4 0 2 3 0 9 0 8 
+0 1 0 0 0 6 0 0 0 
+0 0 0 0 0 2 0 8 0 
+3 0 2 5 0 0 0 0 6 
+
+Board cannot be solved without guessing.
+Definite assignments: 
+Assigned 5 to Tile (0, 4) 
+
+Unassigned tiles: 
+Tile (5, 7) has possibilities: [ 1 7 ]
+Tile (8, 6) has possibilities: [ 1 4 ]
+Tile (0, 7) has possibilities: [ 1 4 ]
+Tile (3, 3) has possibilities: [ 1 4 ]
+Tile (2, 1) has possibilities: [ 7 8 ]
+Tile (3, 0) has possibilities: [ 1 7 ]
+Tile (0, 1) has possibilities: [ 6 8 ]
+Tile (4, 7) has possibilities: [ 1 4 7 ]
+Tile (6, 2) has possibilities: [ 4 5 7 ]
+Tile (6, 3) has possibilities: [ 3 4 8 ]
+Tile (2, 4) has possibilities: [ 1 2 4 ]
+Tile (6, 6) has possibilities: [ 3 4 5 ]
+Tile (2, 5) has possibilities: [ 1 4 8 ]
+Tile (4, 8) has possibilities: [ 1 4 7 ]
+Tile (0, 2) has possibilities: [ 1 4 6 ]
+Tile (4, 3) has possibilities: [ 1 4 6 ]
+Tile (6, 4) has possibilities: [ 4 7 9 ]
+Tile (5, 5) has possibilities: [ 1 5 7 ]
+Tile (1, 8) has possibilities: [ 1 2 4 ]
+Tile (7, 1) has possibilities: [ 6 7 9 ]
+Tile (7, 3) has possibilities: [ 1 3 4 ]
+Tile (1, 5) has possibilities: [ 1 4 8 ]
+Tile (3, 5) has possibilities: [ 1 4 7 ]
+Tile (8, 1) has possibilities: [ 7 8 9 ]
+Tile (2, 2) has possibilities: [ 1 3 4 7 ]
+Tile (1, 2) has possibilities: [ 1 3 4 6 ]
+Tile (5, 2) has possibilities: [ 1 5 6 7 ]
+Tile (5, 0) has possibilities: [ 1 5 6 7 ]
+Tile (8, 7) has possibilities: [ 1 4 7 9 ]
+Tile (7, 2) has possibilities: [ 4 5 6 7 ]
+Tile (0, 3) has possibilities: [ 1 4 6 8 ]
+Tile (4, 0) has possibilities: [ 1 5 6 7 ]
+Tile (6, 8) has possibilities: [ 2 4 5 7 ]
+Tile (7, 8) has possibilities: [ 1 4 5 7 ]
+Tile (7, 6) has possibilities: [ 1 3 4 5 ]
+Tile (1, 4) has possibilities: [ 1 2 4 6 ]
+Tile (8, 4) has possibilities: [ 1 4 7 9 ]
+Tile (1, 6) has possibilities: [ 1 3 4 8 ]
+Tile (6, 0) has possibilities: [ 4 5 7 8 ]
+Tile (2, 0) has possibilities: [ 1 4 7 8 ]
+Tile (1, 7) has possibilities: [ 1 2 3 4 ]
+Tile (7, 0) has possibilities: [ 4 5 6 7 ]
+Tile (7, 4) has possibilities: [ 1 4 7 9 ]
+Tile (2, 8) has possibilities: [ 1 2 4 5 ]
+Tile (4, 5) has possibilities: [ 1 4 5 7 9 ]
+Tile (4, 4) has possibilities: [ 1 4 6 7 9 ]
+Tile (8, 5) has possibilities: [ 1 4 7 8 9 ]
+Tile (2, 6) has possibilities: [ 1 3 4 5 8 ]
+Tile (6, 7) has possibilities: [ 2 3 4 7 9 ]
+
+[GUESS] Assigned 0 to Tile (5, 7)
+
+[GUESS] Assigned 0 to Tile (8, 6)
+
+[GUESS] Assigned 0 to Tile (0, 7)
+
+[GUESS] Assigned 0 to Tile (3, 3)
+
+[GUESS] Assigned 0 to Tile (2, 1)
+
+[GUESS] Assigned 7 to Tile (3, 0)
+
+[GUESS] Assigned 6 to Tile (0, 1)
+
+[GUESS] Assigned 1 to Tile (4, 7)
+
+[GUESS] Assigned 7 to Tile (6, 2)
+
+[GUESS] Assigned 3 to Tile (6, 3)
+
+[GUESS] Assigned 1 to Tile (2, 4)
+
+[GUESS] Assigned 5 to Tile (6, 6)
+
+[GUESS] Assigned 4 to Tile (4, 8)
+
+[GUESS] Assigned 1 to Tile (0, 2)
+
+[GUESS] Assigned 6 to Tile (4, 3)
+
+[GUESS] Assigned 4 to Tile (6, 4)
+
+[GUESS] Assigned 5 to Tile (5, 5)
+
+[GUESS] Assigned 2 to Tile (1, 8)
+
+[GUESS] Assigned 9 to Tile (7, 1)
+
+[GUESS] Assigned 1 to Tile (7, 3)
+
+[GUESS] Assigned 7 to Tile (3, 5)
+
+[GUESS] Assigned 3 to Tile (2, 2)
+
+[GUESS] Assigned 4 to Tile (1, 2)
+
+[GUESS] Assigned 6 to Tile (5, 2)
+
+[GUESS] Assigned 1 to Tile (5, 0)
+
+[GUESS] Assigned 9 to Tile (8, 7)
+
+[GUESS] Assigned 5 to Tile (7, 2)
+
+[GUESS] Assigned 8 to Tile (0, 3)
+
+[GUESS] Assigned 5 to Tile (4, 0)
+
+[GUESS] Assigned 7 to Tile (7, 8)
+
+[GUESS] Assigned 3 to Tile (7, 6)
+
+[GUESS] Assigned 6 to Tile (1, 4)
+
+[GUESS] Assigned 7 to Tile (8, 4)
+
+[GUESS] Assigned 8 to Tile (1, 6)
+
+[GUESS] Assigned 8 to Tile (6, 0)
+
+[GUESS] Assigned 4 to Tile (2, 0)
+
+[GUESS] Assigned 3 to Tile (1, 7)
+
+[GUESS] Assigned 6 to Tile (7, 0)
+
+[GUESS] Assigned 4 to Tile (7, 4)
+
+[GUESS] Assigned 5 to Tile (2, 8)
+
+[GUESS] Assigned 9 to Tile (4, 5)
+
+[GUESS] Assigned 8 to Tile (8, 5)
+
+[GUESS] Assigned 1 to Tile (2, 6)
+
+[GUESS] Assigned 2 to Tile (6, 7)
+
