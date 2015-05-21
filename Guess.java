@@ -1,8 +1,8 @@
 public class Guess implements Comparable<Guess> {
-    int row;
-    int col;
-    int guess;
-    double likelihood;
+    private int row;
+    private int col;
+    private int guess;
+    private double likelihood;
 
     public Guess(int row, int col, int guess, double likelihood) {
         this.row = row;

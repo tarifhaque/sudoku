@@ -16,13 +16,13 @@ the algorithm. We make sure to save the configuration of the board at this
 point. This part of the algorithm is what makes this both a puzzle solver,
 and generator.
 
-1. Build a list of all possible guesses for the board.
+Build a list of all possible guesses for the board.
 A single guess is comprised of a Tile, and possible value that can be
 assigned to it. Shuffle the list of guesses, and sort the list, with
 the most "likely" guesses first. The likelihood of a guess is the
 1.0 / number of possibilities for the guessed Tile.
 
-2. Make a guess on the board by selecting one of the most likely guesses
+Make a guess on the board by selecting one of the most likely guesses
 from the list of guesses. Now reduce the board using our initial
 deterministic approach. If we've solved the board after guessing, then
 great! The program has accomplished it's task.

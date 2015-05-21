@@ -5,7 +5,6 @@
  * Tarif Haque
  **********************************************************/
 
-
 import java.io.*;
 import java.util.*;
 
@@ -93,21 +92,6 @@ public class SudokuSolver {
         }
 
         output("\n");
-    }
-
-    /**********************************************************
-     * Write a 2D grid that contains the number of possibilities
-     * for each tile in the board.
-     **********************************************************/
-    public void writeBoardPossibilities() {
-        int[][] possibilities = board.getBoardPossibilities();
-
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
-                output(String.valueOf(possibilities[i][j]) + " ");
-            }
-            output("\n");
-        }
     }
 
     /**********************************************************
@@ -209,17 +193,17 @@ public class SudokuSolver {
                 output(g.toString() + "\n");
 
                 if (solveBoardDeterministcally()) {
-                    output("Bored has been solved non-deterministically.\n");
+                    output("Bored has been solved non-deterministically by guessing.\n");
                     writeFinalSolvedBoard();
                     break;
                 } else {
                     output("Board could not be solved after guess. \n");
                     if (board.boardConflictExists()) {
-                        output("A board conflict exists after guess. Return to determined state. \n");
+                        output("A board conflict exists after guess. Return to determined state. \n\n");
                         board = new SudokuBoard(savedConfiguration);
                         board.computeBoardPossibilities();
                     } else {
-                        output("..but a board conflict does not exist. So guess again. \n");
+                        output("..but a board conflict does not exist. So guess again. \n\n");
                     }
                 }
 
@@ -250,7 +234,7 @@ public class SudokuSolver {
     }
 
 	public static void main(String[] args) {
-		SudokuSolver solver = new SudokuSolver("input.txt", "output.txt");
+		SudokuSolver solver = new SudokuSolver("input/input.txt", "output/output.txt");
 
         solver.output("Initial Sudoku Board: \n");
 
